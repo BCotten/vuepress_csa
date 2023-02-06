@@ -2,10 +2,10 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
-heroImage: /logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+title: Home
+heroImage: /csalogo.png
+heroText: University Of Fraser Valley
+tagline: Computer Student Ascotiation
 heroFullScreen: true
 projects:
   - icon: project
