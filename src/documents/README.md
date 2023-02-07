@@ -1,8 +1,8 @@
 ---
-title: Meeting Documents
+title: Documents
 index: false
-icon: discover
+icon: file
 category:
-  - Guide
+  - Documents
 ---
 

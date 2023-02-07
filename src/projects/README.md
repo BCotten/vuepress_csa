@@ -1,7 +1,7 @@
 ---
 title: Projects
 index: false
-icon: discover
+icon: Build
 category:
-  - Guide
+  - Projects
 ---

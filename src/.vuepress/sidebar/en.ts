@@ -5,17 +5,33 @@ export const enSidebar = sidebar({
         '',
         'intro',
         {
-            icon: 'discover',
-            text: 'Demo',
-            prefix: 'demo/',
-            link: 'demo/',
-            children: 'structure',
+            text: 'Events',
+            icon: 'date',
+            link: '/events/',
         },
         {
-            text: 'Articles',
-            icon: 'note',
-            children: 'structure',
+            text: 'Resources',
+            icon: 'list',
+            link: '/resources/',
         },
-        'slides',
+        {
+            text: 'Projects',
+            icon: 'build',
+            link: '/projects/',
+        },
+        {
+            text: 'Executives',
+            icon: 'people',
+            link: '/executives/',
+        },
+        {
+            text: 'Documents',
+            icon: 'file',
+            link: '/documents/',
+        },{
+            text: 'Contact',
+            icon: 'comment',
+            link: '/contact/',
+        },
     ],
 });

@@ -4,31 +4,31 @@ export const enNavbar = navbar([
     '/',
     {
         text: 'Events',
-        icon: 'discover',
+        icon: 'date',
         link: '/events/',
     },
     {
         text: 'Resources',
-        icon: 'edit',
+        icon: 'list',
         link: '/resources/',
     },
     {
         text: 'Projects',
-        icon: 'edit',
+        icon: 'build',
         link: '/projects/',
     },
     {
         text: 'Executives',
-        icon: 'edit',
+        icon: 'people',
         link: '/executives/',
     },
     {
         text: 'Documents',
-        icon: 'note',
+        icon: 'file',
         link: '/documents/',
     },{
         text: 'Contact',
-        icon: 'note',
+        icon: 'comment',
         link: '/contact/',
     },
 ]);

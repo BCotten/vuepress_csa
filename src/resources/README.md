@@ -1,8 +1,8 @@
 ---
 title: Resources
 index: false
-icon: discover
+icon: list
 category:
-  - Guide
+  - Resources
 ---
 

@@ -44,19 +44,13 @@ export default hopeTheme({
             displayFooter: true,
 
             blog: {
-                description: 'A FrontEnd programmer',
+                description: 'Computer Student Ascotiation',
                 intro: '/intro.html',
             },
 
             metaLocales: {
                 editLink: 'Edit this page on GitHub',
             },
-        },
-    },
-
-    encrypt: {
-        config: {
-            '/demo/encrypt.html': ['1234'],
         },
     },
 

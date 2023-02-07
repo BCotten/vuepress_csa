@@ -1,7 +1,7 @@
 ---
 title: Executives
 index: false
-icon: discover
+icon: people
 category:
-  - Guide
+  - Executive
 ---
