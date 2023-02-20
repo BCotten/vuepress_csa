@@ -19,15 +19,14 @@ export default hopeTheme({
 
     blog: {
         medias: {
-            Discord: 'https://example.com',
-            Email: 'https://example.com',
-            Facebook: 'https://example.com',
-            GitHub: 'https://example.com',
-            Gmail: 'https://example.com',
-            Instagram: 'https://example.com',
-            Linkedin: 'https://example.com',
-            Twitter: 'https://example.com',
-            Youtube: 'https://example.com',
+            Discord: 'https://discord.gg/nu4kTTR',
+            Email: 'mailto: csa.ufv@gmail.com',
+            Facebook: 'https://www.facebook.com/UFV.CISSA/',
+            GitHub: 'https://github.com/ufvcsa',
+            Instagram: 'https://www.instagram.com/ufvcsa/',
+            Linkedin: 'https://www.linkedin.com/company/ufvcsa',
+            Twitter: 'https://twitter.com/UFVCSA/',
+            Youtube: 'https://www.youtube.com/@ufvcsa5064',
         },
     },
 
@@ -44,7 +43,7 @@ export default hopeTheme({
             displayFooter: true,
 
             blog: {
-                description: 'Computer Student Ascotiation',
+                description: 'Computer Student Association',
                 intro: '/intro.html',
             },
 
