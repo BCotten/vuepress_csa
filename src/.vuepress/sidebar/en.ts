@@ -1,22 +1,37 @@
-import { sidebar } from "vuepress-theme-hope";
+import { sidebar } from 'vuepress-theme-hope';
 
 export const enSidebar = sidebar({
-  "/": [
-    "",
-    {
-      icon: "discover",
-      text: "Demo",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "Articles",
-      icon: "note",
-      prefix: "posts/",
-      children: "structure",
-    },
-    "intro",
-    "slides",
-  ],
+    '/': [
+        '',
+        'intro',
+        {
+            text: 'Events',
+            icon: 'date',
+            link: '/events/',
+        },
+        {
+            text: 'Resources',
+            icon: 'list',
+            link: '/resources/',
+        },
+        {
+            text: 'Projects',
+            icon: 'build',
+            link: '/projects/',
+        },
+        {
+            text: 'Executives',
+            icon: 'people',
+            link: '/executives/',
+        },
+        {
+            text: 'Documents',
+            icon: 'file',
+            link: '/documents/',
+        },{
+            text: 'Contact',
+            icon: 'comment',
+            link: '/contact/',
+        },
+    ],
 });

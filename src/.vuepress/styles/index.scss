@@ -1,1 +1,27 @@
 // place your custom styles here
+
+
+/* Change later was just a test to find out how to add sytles, at least one solution to it */
+html[data-theme="light"] {
+    .blog{
+        .description,
+        h1 {
+            color: #00703c
+        }
+    }
+}
+
+@media (min-width: 1440px) {
+    .blog {
+        .blog-hero{
+            h1 {
+                font-size: 5rem;
+            }
+
+            p {
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
