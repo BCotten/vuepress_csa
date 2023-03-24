@@ -1,7 +1,7 @@
 ---
-title: Projects
+title: Sample
 index: false
-icon: info
+icon: build
 category:
   - Projects
   - Info

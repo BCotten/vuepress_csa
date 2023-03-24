@@ -6,6 +6,7 @@ title: Home
 heroImage: /csalogo.png
 heroText: University Of Fraser Valley
 tagline: Computer Student Association
+bgImage: /computer.png
 heroFullScreen: true
 projects:
   - icon: link

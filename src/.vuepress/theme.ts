@@ -3,7 +3,7 @@ import { enNavbar } from './navbar/index.js';
 import { enSidebar } from './sidebar/index.js';
 
 export default hopeTheme({
-    hostname: 'https://BCotten.github.io',
+    hostname: 'https://bcotten.github.io',
 
     author: {
         name: 'CSA',
@@ -13,7 +13,7 @@ export default hopeTheme({
 
     logo: '/csaicon.png',
 
-    repo: 'vuepress-theme-hope/vuepress-theme-hope',
+    repo: 'BCotten/vuepress_csa',
 
     docsDir: 'docs',
 
@@ -56,18 +56,17 @@ export default hopeTheme({
     plugins: {
         blog: true,
 
-        // If you don’t need comment feature, you can remove following option
-        // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
-        // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
+        // Updated to BCotten/BCotten.github.io for testing
+        // will need to update to csa .io later...
         comment: {
             /**
                 * Using Giscus
             */
-            /* provider: 'Giscus',
-            repo: 'vuepress-theme-hope/giscus-discussions',
-            repoId: 'R_kgDOG_Pt2A',
+            provider: 'Giscus',
+            repo: 'BCotten/BCotten.github.io',
+            repoId: 'R_kgDOJN47eQ',
             category: 'Announcements',
-            categoryId: 'DIC_kwDOG_Pt2M4COD69', */
+            categoryId: 'DIC_kwDOJN47ec4CVH4V',
 
             /**
              * Using Twikoo
