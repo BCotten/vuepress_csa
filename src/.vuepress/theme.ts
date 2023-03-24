@@ -3,7 +3,7 @@ import { enNavbar } from './navbar/index.js';
 import { enSidebar } from './sidebar/index.js';
 
 export default hopeTheme({
-    hostname: 'https://mister-hope.github.io',
+    hostname: 'https://BCotten.github.io',
 
     author: {
         name: 'CSA',
@@ -61,13 +61,13 @@ export default hopeTheme({
         // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
         comment: {
             /**
-             * Using Giscus
-             */
-            provider: 'Giscus',
+                * Using Giscus
+            */
+            /* provider: 'Giscus',
             repo: 'vuepress-theme-hope/giscus-discussions',
             repoId: 'R_kgDOG_Pt2A',
             category: 'Announcements',
-            categoryId: 'DIC_kwDOG_Pt2M4COD69',
+            categoryId: 'DIC_kwDOG_Pt2M4COD69', */
 
             /**
              * Using Twikoo
