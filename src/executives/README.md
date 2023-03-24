@@ -1,7 +1,7 @@
 ---
 title: Executives
-index: false
-icon: people
+icon: info
 category:
   - Executive
+  - Info
 ---

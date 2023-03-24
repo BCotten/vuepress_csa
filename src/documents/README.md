@@ -1,8 +1,8 @@
 ---
 title: Documents
-index: false
-icon: file
+icon: info
 category:
   - Documents
+  - Info
 ---
 

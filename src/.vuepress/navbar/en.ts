@@ -17,16 +17,18 @@ export const enNavbar = navbar([
         icon: 'build',
         link: '/projects/',
     },
+
+    {
+        text: 'Documents',
+        icon: 'file',
+        link: '/documents/',
+    },
     {
         text: 'Executives',
         icon: 'people',
         link: '/executives/',
     },
     {
-        text: 'Documents',
-        icon: 'file',
-        link: '/documents/',
-    },{
         text: 'Contact',
         icon: 'comment',
         link: '/contact/',

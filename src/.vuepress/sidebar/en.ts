@@ -7,28 +7,58 @@ export const enSidebar = sidebar({
         {
             text: 'Events',
             icon: 'date',
-            link: '/events/',
+            prefix: 'events/',
+            collapsible: true,
+            children: [
+                "README.md",
+                "upcoming.md",
+                "events2023.md",
+                "events2022.md",
+            ]
         },
         {
             text: 'Resources',
             icon: 'list',
-            link: '/resources/',
+            prefix: 'resources/',
+            collapsible: true,
+            children: [
+                "README.md",
+            ]
         },
         {
             text: 'Projects',
             icon: 'build',
-            link: '/projects/',
-        },
-        {
-            text: 'Executives',
-            icon: 'people',
-            link: '/executives/',
+            prefix: 'projects/',
+            collapsible: true,
+            children: [
+                "README.md",
+                "sample.md",
+            ]
         },
         {
             text: 'Documents',
             icon: 'file',
-            link: '/documents/',
-        },{
+            prefix: 'documents/',
+            collapsible: true,
+            children: [
+                "README.md",
+                "constitution.md",
+                "minutes2023.md",
+                "minutes2022.md",
+            ]
+        },
+        {
+            text: 'Executives',
+            icon: 'people',
+            prefix: 'executives/',
+            collapsible: true,
+            children: [
+                "README.md",
+                "exec2023.md",
+                "exec2022.md",
+            ]
+        },
+        {
             text: 'Contact',
             icon: 'comment',
             link: '/contact/',
